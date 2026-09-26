@@ -1,0 +1,90 @@
+{
+  "model": "roofline",
+  "theta_latency": [
+    22894930702807.69,
+    118692694677.74382
+  ],
+  "theta_energy": [
+    22894930702807.69,
+    118692694677.74382,
+    192.16942336063053
+  ],
+  "theta_latency_order": [
+    "compute_operations_per_second",
+    "memory_bytes_per_second"
+  ],
+  "theta_energy_order": [
+    "compute_operations_per_second",
+    "memory_bytes_per_second",
+    "effective_power_watts"
+  ],
+  "both_branches_present_in_train": false,
+  "train_indices": [
+    41,
+    29,
+    20,
+    18,
+    24,
+    39,
+    48,
+    45,
+    4,
+    25,
+    31,
+    26,
+    49,
+    9,
+    50,
+    21,
+    28,
+    44,
+    16,
+    46,
+    32,
+    15,
+    3,
+    30,
+    10,
+    42,
+    47,
+    6,
+    38,
+    11,
+    22,
+    19,
+    35,
+    0,
+    12,
+    43,
+    14,
+    52,
+    2,
+    36,
+    33,
+    1,
+    13,
+    8
+  ],
+  "test_indices": [
+    27,
+    7,
+    37,
+    40,
+    53,
+    17,
+    5,
+    51,
+    34,
+    23
+  ],
+  "metrics": {
+    "train": {
+      "latency_mape": 0.5080989696808148,
+      "energy_mape": 0.23631457705669986
+    },
+    "test": {
+      "latency_mape": 0.5328473971462809,
+      "energy_mape": 0.2018947062968704
+    }
+  }
+}
